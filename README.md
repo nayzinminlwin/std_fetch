@@ -30,9 +30,9 @@ In your newly opened Command Prompt, run these two commands to install the requi
    python student_scraper.py
    ```
 2. A visible Chromium browser window will open. **Log in to the SMP portal manually.**
-3. Navigate to the page containing your course list.
-4. Click the hyperlinked number under the **NO. OF STUDENT REGISTERED** column for the class you want to extract.
-5. **Stop and wait.** You only need to click the link once. The script will capture the unique class ID and automatically fetch page 1, 2, 3, etc., in the background without needing you to click "Next".
-6. Watch the terminal. It will print out its progress and save a file formatted as `student_list_[ID].csv` in the same folder as the script.
-7. Repeat for any other classes you need.
-8. Close the browser window to terminate the script.
+3. Navigate to the page containing your course list. [ Menu -> MyRegister -> Lecture/LabSchedule -> (search by courseCode) ]
+5. Click the hyperlinked number under the **NO. OF STUDENT REGISTERED** column for the class you want to extract.
+6. **Stop and wait.** You only need to click the link once. The script will capture the unique class ID and automatically fetch page 1, 2, 3, etc., in the background without needing you to click "Next".
+7. Watch the terminal. It will print out its progress and save a file formatted as `student_list_[ID].csv` in the same folder as the script.
+8. Repeat for any other classes you need.
+9. Close the browser window to terminate the script.
